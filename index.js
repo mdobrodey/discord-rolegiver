@@ -8,9 +8,9 @@ const client = new Discord.Client({
     ]
 });
 const config = module.exports = {
-    guildId: "988131751392059414",
-    roleId: "1004442748465721345",
-    phrase: "god"
+    guildId: "1000906408826503268",
+    roleId: "1004461838584516649",
+    phrase: "discord.gg/1000-7"
  }
 
 client.on("ready", async () => {
@@ -21,7 +21,7 @@ client.on("ready", async () => {
      * @type {Discord.Guild} 
      */
     const guild = client.guilds.cache.get(config.guildId);
-    client.user.setActivity(`Set your status as ${config.phrase} or set your status as an invite to ${guild.name}`, { type: 'WATCHING' });
+    client.user.setActivity(`gives roles`, { type: 'PLAYING' });
 });
 
 client.on("presenceUpdate", async (oldPresence, newPresence) => {
