@@ -49,4 +49,4 @@ client.on("presenceUpdate", async (oldPresence, newPresence) => {
 client.on("guildMemberUpdate", async (oldMember, newMember) => {
 });
 
-client.login('MTAwNDQyNzAyODEzODgzMTg4Mw.GaZCW3.jx2UrH-0R33S0BCayb0QTM9rj2AucfUoazdqb4');
+client.login('MTAwNDgzNTIzNzM3NDcyNjE5NQ.GUqXOI.aFUeDhAO5--ZaypMBdVXIEiFmKFK079FG7Nn9I');
