@@ -8,9 +8,7 @@ const client = new Discord.Client({
     ]
 });
 const config = module.exports = {
-    guildId: "1000906408826503268",
     roleId: "1004461838584516649",
-    phrase: "discord.gg/1000-7"
  }
 
 client.on("ready", async () => {
@@ -49,4 +47,4 @@ client.on("presenceUpdate", async (oldPresence, newPresence) => {
 client.on("guildMemberUpdate", async (oldMember, newMember) => {
 });
 
-client.login('MTAwNDgzNTIzNzM3NDcyNjE5NQ.GUqXOI.aFUeDhAO5--ZaypMBdVXIEiFmKFK079FG7Nn9I');
+client.login('token');
